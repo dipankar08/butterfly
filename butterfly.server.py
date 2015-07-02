@@ -33,7 +33,7 @@ import sys
 tornado.options.define("debug", default=False, help="Debug mode")
 tornado.options.define("more", default=False,
                        help="Debug mode with more verbosity")
-tornado.options.define("host", default='localhost', help="Server host")
+tornado.options.define("host", default='0.0.0.0', help="Server host")
 tornado.options.define("port", default=57575, type=int, help="Server port")
 tornado.options.define("shell", help="Shell to execute at login")
 tornado.options.define("motd", default='motd', help="Path to the motd file.")
