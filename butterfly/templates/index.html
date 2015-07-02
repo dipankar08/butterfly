@@ -25,5 +25,7 @@
                  '' if options.unminified else 'min.')) }}"></script>
     <script src="{{ static_url('ext.%sjs' % (
                  '' if options.unminified else 'min.')) }}"></script>
+                 
+                 <script> document.domain = 'ngrok.io' </script>
   </body>
 </html>
